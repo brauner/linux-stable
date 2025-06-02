@@ -87,6 +87,7 @@ struct coredump_params {
 	loff_t written;
 	loff_t pos;
 	loff_t to_skip;
+	struct pid *pid;
 };
 
 /*
